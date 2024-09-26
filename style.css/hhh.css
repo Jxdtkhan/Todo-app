@@ -1,0 +1,23 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 600px;
+    margin-top: 50px;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group-item .task-text {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.list-group-item .edit-task, .list-group-item .delete-task {
+    margin-left: 5px;
+}
